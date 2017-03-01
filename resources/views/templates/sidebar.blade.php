@@ -3,7 +3,7 @@
         <!-- sidebar menu start-->
         <ul class="sidebar-menu">
             <li>
-                <a class="" href="{{action('CustomerController@index')}}">
+                <a class="" href="{{action('SellItemController@index')}}">
                     <i class="icon_upload"></i>
                     <span>លក់ទំនិញ</span>
                 </a>
@@ -15,7 +15,7 @@
                 </a>
             </li>
             <li>
-                <a class="" href="{{action('CustomerController@index')}}">
+                <a class="" href="{{action('ImportItemController@index')}}">
                     <i class="icon_archive"></i>
                     <span>ទំនិញចូល</span>
                 </a>
@@ -53,5 +53,8 @@
 
         </ul>
         <!-- sidebar menu end-->
+        <div class="col-lg-offset-1">
+            <img src="{{asset('img/honda-3.png')}}">
+        </div>
     </div>
 </aside>

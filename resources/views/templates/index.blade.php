@@ -52,7 +52,7 @@
             <!--main content start-->
             </section>
             <!--main content end-->
-            @include('templates/footer')
+            <!--@include('templates/footer')-->
         </section>
         <!-- container section start -->
 

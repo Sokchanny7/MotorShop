@@ -4,6 +4,7 @@
     </div>
 
     <!--logo start-->
+
 <!--    <a href="index.html" class="logo">Honda <span class="lite">Motor shop</span></a>-->
     <img class="logo" height="50px" src="{{ asset("img/honda.gif") }}"/>
     <!--logo end-->

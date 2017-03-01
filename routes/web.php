@@ -15,3 +15,5 @@ Route::get('/', 'IndexController@index');
 Route::get('customer', 'CustomerController@index');
 Route::get('supplier', 'SupplierController@index');
 Route::get('address', 'AddressController@index');
+Route::get('import_item', 'ImportItemController@index');
+Route::get('sell_item', 'SellItemController@index');
